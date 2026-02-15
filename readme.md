@@ -3,227 +3,478 @@
 
 # 📚 Yazılım Terimleri Sözlüğü (A-Z)
 
-Yazılım Terimleri Sözlüğü, yazılım geliştirme, bilgisayar bilimleri ve teknoloji dünyasına dair kapsamlı, güncel ve anlaşılır açıklamalar içeren bir yazılım terimleri terminolojisi sözlüğü. Yazılıma yeni başlayanlara ya da bir süredir sektörde olup yazılım terimlerine hakim olmadığını düşünen herkese yardımcı olması dileğiyle. 
+<p align="justify">Yazılım Terimleri Sözlüğü, yazılım geliştirme, bilgisayar bilimleri ve teknoloji dünyasına dair kapsamlı, güncel ve anlaşılır açıklamalar içeren bir yazılım terimleri terminolojisi sözlüğü. Yazılıma yeni başlayanlara ya da bir süredir sektörde olup yazılım terimlerine hakim olmadığını düşünen herkese yardımcı olması dileğiyle. </p>
 
 ---
 
 ## 🗂 İçindekiler
+- [📚 Yazılım Terimleri Sözlüğü (A-Z)](#-yazılım-terimleri-sözlüğü-a-z)
+  - [🗂 İçindekiler](#-i̇çindekiler)
+  - [Hızlı Erişim](#hızlı-erişim)
+  - [A](#a)
+    - [A/B Testing (A/B Testi)](#ab-testing-ab-testi)
+    - [Abort (İptal Etmek)](#abort-i̇ptal-etmek)
+    - [Absolute Path (Mutlak Yol)](#absolute-path-mutlak-yol)
+    - [Abstract Class (Soyut Sınıf)](#abstract-class-soyut-sınıf)
+    - [Abstraction (Soyutlama)](#abstraction-soyutlama)
+    - [Acceptance Testing (Kabul Testi)](#acceptance-testing-kabul-testi)
+    - [Access Control (Erişim Kontrolü)](#access-control-erişim-kontrolü)
+    - [Access Modifier (Erişim Belirleyici)](#access-modifier-erişim-belirleyici)
+    - [Access Token (Erişim Jetonu)](#access-token-erişim-jetonu)
+    - [Accessibility / A11y (Erişilebilirlik)](#accessibility--a11y-erişilebilirlik)
+    - [ACID (Atomicity, Consistency, Isolation, Durability)](#acid-atomicity-consistency-isolation-durability)
+    - [Action (Eylem)](#action-eylem)
+    - [Active Record](#active-record)
+    - [Adapter Pattern (Adaptör Deseni)](#adapter-pattern-adaptör-deseni)
+    - [Add-on (Eklenti)](#add-on-eklenti)
+    - [Address (Adres)](#address-adres)
+    - [Admin / Administrator (Yönetici)](#admin--administrator-yönetici)
+    - [Adware (Reklam Yazılımı)](#adware-reklam-yazılımı)
+    - [Agile (Çevik)](#agile-çevik)
+    - [AI (Artificial Intelligence — Yapay Zeka)](#ai-artificial-intelligence--yapay-zeka)
+    - [AJAX (Asynchronous JavaScript and XML)](#ajax-asynchronous-javascript-and-xml)
+    - [Alert (Uyarı Kutusu)](#alert-uyarı-kutusu)
+    - [Algorithm (Algoritma)](#algorithm-algoritma)
+    - [Alias (Takma Ad)](#alias-takma-ad)
+    - [Allocation (Tahsis Etme)](#allocation-tahsis-etme)
+    - [Alpha (Alfa Sürümü)](#alpha-alfa-sürümü)
+    - [Analog](#analog)
+    - [Analytics (Analitik)](#analytics-analitik)
+    - [Anchor (Çapa)](#anchor-çapa)
+    - [Angular](#angular)
+    - [Annotation (Ek Açıklama/Notasyon)](#annotation-ek-açıklamanotasyon)
+    - [Anonymous Function (İsimsiz Fonksiyon)](#anonymous-function-i̇simsiz-fonksiyon)
+    - [Anti-Pattern (Karşıt Desen)](#anti-pattern-karşıt-desen)
+    - [Apache](#apache)
+    - [API (Application Programming Interface - Uygulama Programlama Arayüzü)](#api-application-programming-interface---uygulama-programlama-arayüzü)
+    - [App Store (Uygulama Mağazası)](#app-store-uygulama-mağazası)
+    - [Append (Sonuna Ekleme)](#append-sonuna-ekleme)
+    - [Applet](#applet)
+    - [Application Server (Uygulama Sunucusu)](#application-server-uygulama-sunucusu)
+    - [Architecture (Mimari)](#architecture-mimari)
+    - [Archive (Arşiv)](#archive-arşiv)
+    - [Argument (Argüman)](#argument-argüman)
+    - [Arithmetic Operators (Aritmetik Operatörler)](#arithmetic-operators-aritmetik-operatörler)
+    - [Array (Dizi)](#array-dizi)
+    - [Artifact (Yapı Taşı/Eser)](#artifact-yapı-taşıeser)
+    - [ASCII (American Standard Code for Information Interchange - Bilgi Değişimi İçin Amerikan Standart Kodlama Sistemi)](#ascii-american-standard-code-for-information-interchange---bilgi-değişimi-i̇çin-amerikan-standart-kodlama-sistemi)
+    - [Assembly](#assembly)
+    - [Assertion (İddia/Doğrulama)](#assertion-i̇ddiadoğrulama)
+    - [Asset (Varlık/Kaynak)](#asset-varlıkkaynak)
+    - [Assignment (Atama)](#assignment-atama)
+    - [Asynchronous (Asenkron)](#asynchronous-asenkron)
+    - [Atomic Design (Atomik Tasarım)](#atomic-design-atomik-tasarım)
+    - [Attribute (Öznitelik)](#attribute-öznitelik)
+    - [Audit Log (Denetim Kaydı)](#audit-log-denetim-kaydı)
+    - [Augmented Reality / AR (Artırılmış Gerçeklik)](#augmented-reality--ar-artırılmış-gerçeklik)
+    - [Authentication (Kimlik Doğrulama)](#authentication-kimlik-doğrulama)
+    - [Authorization (Yetkilendirme)](#authorization-yetkilendirme)
+    - [Auto-Complete (Otomatik Tamamlama)](#auto-complete-otomatik-tamamlama)
+    - [Auto-Increment (Otomatik Artış)](#auto-increment-otomatik-artış)
+    - [Auto-Scaling (Otomatik Ölçeklendirme)](#auto-scaling-otomatik-ölçeklendirme)
+    - [Automation (Otomasyon)](#automation-otomasyon)
+    - [Availability (Erişilebilirlik /   Kullanılabilirlik)](#availability-erişilebilirlik----kullanılabilirlik)
+    - [Avatar](#avatar)
+    - [Await](#await)
+    - [AWS (Amazon Web Services)](#aws-amazon-web-services)
+    - [Azure](#azure)
+  - [B](#b)
+  - [C](#c)
+  - [D](#d)
+  - [E](#e)
+  - [F](#f)
+  - [G](#g)
+  - [H](#h)
+  - [I](#i)
+  - [J](#j)
+  - [K](#k)
+  - [L](#l)
+  - [M](#m)
+  - [N](#n)
+  - [O](#o)
+  - [P](#p)
+  - [Q](#q)
+  - [R](#r)
+  - [S](#s)
+  - [T](#t)
+  - [U](#u)
+  - [V](#v)
+  - [W](#w)
+  - [X](#x)
+  - [Y](#y)
+  - [Z](#z)
+  - [Yazar](#yazar)
 
-[A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) | [G](#g) | [H](#h) | [I](#i) | [J](#j) | [K](#k) | [L](#l) | [M](#m) | [N](#n) | [O](#o) | [P](#p) | [Q](#q) | [R](#r) | [S](#s) | [T](#t) | [U](#u) | [V](#v) | [W](#w) | [X](#x) | [Y](#y) | [Z](#z)
 
----
+## Hızlı Erişim
+[![A](https://img.shields.io/badge/A-gray?style=for-the-badge)](#a)
+[![B](https://img.shields.io/badge/B-gray?style=for-the-badge)](#b)
+[![C](https://img.shields.io/badge/C-gray?style=for-the-badge)](#c)
+[![D](https://img.shields.io/badge/D-gray?style=for-the-badge)](#d)
+[![E](https://img.shields.io/badge/E-gray?style=for-the-badge)](#e)
+[![F](https://img.shields.io/badge/F-gray?style=for-the-badge)](#f)
+[![G](https://img.shields.io/badge/G-gray?style=for-the-badge)](#g)
+[![H](https://img.shields.io/badge/H-gray?style=for-the-badge)](#h)
+[![I](https://img.shields.io/badge/I-gray?style=for-the-badge)](#i)
+[![J](https://img.shields.io/badge/J-gray?style=for-the-badge)](#j)
+[![K](https://img.shields.io/badge/K-gray?style=for-the-badge)](#k)
+[![L](https://img.shields.io/badge/L-gray?style=for-the-badge)](#l)
+[![M](https://img.shields.io/badge/M-gray?style=for-the-badge)](#m)
+[![N](https://img.shields.io/badge/N-gray?style=for-the-badge)](#n)
+[![O](https://img.shields.io/badge/O-gray?style=for-the-badge)](#o)
+[![P](https://img.shields.io/badge/P-gray?style=for-the-badge)](#p)
+[![Q](https://img.shields.io/badge/Q-gray?style=for-the-badge)](#q)
+[![R](https://img.shields.io/badge/R-gray?style=for-the-badge)](#r)
+[![S](https://img.shields.io/badge/S-gray?style=for-the-badge)](#s)
+[![T](https://img.shields.io/badge/T-gray?style=for-the-badge)](#t)
+[![V](https://img.shields.io/badge/V-gray?style=for-the-badge)](#v)
+[![W](https://img.shields.io/badge/W-gray?style=for-the-badge)](#w)
+[![X](https://img.shields.io/badge/X-gray?style=for-the-badge)](#x)
+[![Y](https://img.shields.io/badge/Y-gray?style=for-the-badge)](#y)
+[![Z](https://img.shields.io/badge/Z-gray?style=for-the-badge)](#z)
 
 ## A
 
-**A/B Testing (A/B Testi)** = Kullanıcı deneyimini ölçmek için bir web sayfasının veya uygulamanın iki farklı versiyonunun (A ve B) karşılaştırmalı olarak test edilmesidir. 
-<hr>
+### A/B Testing (A/B Testi)
+Kullanıcı deneyimini ölçmek için bir web sayfasının veya uygulamanın iki farklı versiyonun (A ve B) karşılaştırmalı olarak test edilmesidir.
 
-**Abort (İptal Etmek)** = Başlamış olan bir işlemin (örneğin dosya indirme veya veritabanı sorgusu) tamamlanmadan zorla durdurulmasıdır.
-<hr>
+---
 
-**Absolute Path (Mutlak Yol)** = Bir dosyanın veya kaynağın, kök dizinden başlayarak tam adresinin (örn: `C:/Users/Belgeler/dosya.txt` veya `https://site.com/resim.jpg`) belirtilmesidir.
-<hr>
+### Abort (İptal Etmek)
+Başlamış olan bir işlemin (örneğin dosya indirme veya veritabanı sorgusu) tamamlanmadan zorla durdurulmasıdır.
 
-**Abstract Class (Soyut Sınıf)** = Nesne Yönelimli Programlamada (OOP), doğrudan kendisinden nesne üretilemeyen, ancak diğer sınıflara miras (kalıtım) vermek için kullanılan şablon sınıftır. 
-<hr>
+---
 
-**Abstraction (Soyutlama)** = Karmaşık sistem detaylarını gizleyip, sadece gerekli işlevleri sunarak sistemi daha anlaşılır hale getirme ilkesidir. 
-<hr>
+### Absolute Path (Mutlak Yol)
+Bir dosyanın veya kaynağın, kök dizinden başlayarak tam adresinin belirtilmesidir.<br>
 
-**Acceptance Testing (Kabul Testi)** = Yazılımın, müşteri veya kullanıcı gereksinimlerini karşılayıp karşılamadığını doğrulamak için yapılan son aşama testidir.
-<hr>
+Örnek :
+- `C:/Users/Belgeler/dosya.txt`
+- `https://site.com/resim.jpg`
 
-**Access Control (Erişim Kontrolü)** = Kimin hangi kaynağa girebileceğini belirleyen güvenlik mekanizmasıdır (Genellikle Role Based — Rol Tabanlı yapılır). 
-<hr>
+---
 
-**Access Modifier (Erişim Belirleyici)** = Sınıfların veya değişkenlerin dışarıdan ne kadar görünür/erişilebilir olduğunu belirleyen anahtar kelimelerdir (Private, Public, Protected). 
-<hr>
+### Abstract Class (Soyut Sınıf) 
+Nesne Yönelimli Programlamada (OOP), doğrudan kendisinden nesne üretilemeyen, ancak diğer sınıflara miras (kalıtım) vermek için kullanılan şablon sınıftır. 
 
-**Access Token (Erişim Jetonu)** = Bir kullanıcının sisteme giriş yaptıktan sonra, yetkili olduğunu kanıtlamak için API isteklerinde kullandığı dijital anahtardır (Genellikle JWT formatındadır). 
-<hr>
+---
 
-**Accessibility / A11y (Erişilebilirlik)** = Yazılımın, engelli bireyler dahil herkes tarafından kullanılabilir olması standartlarıdır.
-<hr>
+### Abstraction (Soyutlama) 
+Karmaşık sistem detaylarını gizleyip, sadece gerekli işlevleri sunarak sistemi daha anlaşılır hale getirme ilkesidir. 
 
-**ACID (Atomicity, Consistency, Isolation, Durability)** = Veritabanı işlemlerinin güvenilirliğini garanti eden dört temel özelliktir. 
-<hr>
+---
 
-**Action (Eylem)** = HTML formlarında verinin gönderileceği adresi belirtir (`action="/login"`); Redux gibi durumlarda, uygulamanın durumunu (state) değiştirmek için gönderilen bilgi paketidir.
-<hr>
+### Acceptance Testing (Kabul Testi)
+Yazılımın, müşteri veya kullanıcı gereksinimlerini karşılayıp karşılamadığını doğrulamak için yapılan son aşama testidir.
 
-**Active Record** = Veritabanı tablolarındaki satırları nesnelere dönüştüren ve veritabanı işlemlerini kolaylaştıran bir tasarım desenidir. 
-<hr>
+---
 
-**Adapter Pattern (Adaptör Deseni)** = Birbiriyle uyumlu olmayan iki farklı arayüzü veya sınıfı, araya bir çevirici (adaptör) koyarak birlikte çalışabilir hale getiren tasarım desenidir (Priz dönüştürücü mantığı). 
-<hr>
+### Access Control (Erişim Kontrolü)
+Kimin hangi kaynağa girebileceğini belirleyen güvenlik mekanizmasıdır (Genellikle Role Based — Rol Tabanlı yapılır). 
 
-**Add-on (Eklenti)** = Bir yazılımın (genellikle tarayıcıların) çekirdek yapısını değiştirmeden ona yeni özellikler katan harici modüldür. (Plugin ile eş anlamlı kullanılır).
-<hr>
+---
 
-**Address (Adres)** = Bellekteki (RAM) bir verinin bulunduğu konumu belirten sayısal değerdir. 
+### Access Modifier (Erişim Belirleyici)
+Sınıfların veya değişkenlerin dışarıdan ne kadar görünür/erişilebilir olduğunu belirleyen anahtar kelimelerdir (Private, Public, Protected). 
 
-<hr>
+---
 
-**Admin / Administrator (Yönetici)** = Sistemdeki tüm yetkilere sahip olan, ayarları değiştirebilen ve diğer kullanıcıları yöneten en üst düzey kullanıcı rolüdür.
-<hr>
+### Access Token (Erişim Jetonu) 
+Bir kullanıcının sisteme giriş yaptıktan sonra, yetkili olduğunu kanıtlamak için API isteklerinde kullandığı dijital anahtardır (Genellikle JWT formatındadır). 
 
-**Adware (Reklam Yazılımı)** = Kullanıcının isteği dışında ekranında sürekli reklamlar gösteren, genellikle ücretsiz yazılımlarla bulaşan rahatsız edici yazılım türüdür.
-<hr>
+---
 
-**Agile (Çevik)** = Değişime hızlı yanıt vermeyi ve parça parça ilerlemeyi hedefleyen proje yönetim metodolojisidir. 
+### Accessibility / A11y (Erişilebilirlik)
+Yazılımın, engelli bireyler dahil herkes tarafından kullanılabilir olması standartlarıdır.
 
-<hr>
+---
 
-**AI (Artificial Intelligence — Yapay Zeka)** = İnsan zekasını taklit ederek öğrenme, problem çözme ve karar verme yeteneğine sahip bilgisayar sistemleridir.
-<hr>
+### ACID (Atomicity, Consistency, Isolation, Durability)
+Veritabanı işlemlerinin güvenilirliğini garanti eden dört temel özelliktir. 
 
-**AJAX (Asynchronous JavaScript and XML)** = Sayfanın tamamını yenilemeden, arka planda sunucuyla veri alışverişi yapıp sayfayı güncellemeyi sağlayan tekniktir. 
-<hr>
+---
 
-**Alert (Uyarı Kutusu)** = Özellikle JavaScript’te, kullanıcının ekranında aniden beliren ve “Tamam”a basılmadan kapanmayan basit mesaj penceresidir (`alert("Merhaba")`).
-<hr>
+### Action (Eylem)
+HTML formlarında verinin gönderileceği adresi belirtir (`action="/login"`); Redux gibi durumlarda, uygulamanın durumunu (state) değiştirmek için gönderilen bilgi paketidir.
 
-**Algorithm (Algoritma)** = Bir sorunu çözmek için izlenen mantıksal ve sıralı adımlar bütünüdür. 
+---
 
-<hr>
+### Active Record
+Veritabanı tablolarındaki satırları nesnelere dönüştüren ve veritabanı işlemlerini kolaylaştıran bir tasarım desenidir. 
 
-**Alias (Takma Ad)** = Bir değişkene, komuta veya veri tabanı tablosuna verilen geçici veya alternatif isimdir.
-<hr>
+---
 
-**Allocation (Tahsis Etme)** = İşletim sisteminin, bir programın çalışması için ihtiyaç duyduğu bellek (RAM) veya disk alanını ona ayırması işlemidir. 
-<hr>
+### Adapter Pattern (Adaptör Deseni)
+Birbiriyle uyumlu olmayan iki farklı arayüzü veya sınıfı, araya bir çevirici (adaptör) koyarak birlikte çalışabilir hale getiren tasarım desenidir (Priz dönüştürücü mantığı). 
 
-**Alpha (Alfa Sürümü)** = Yazılımın test edilmeye başlanan ilk, çok ham ve hatalarla dolu sürümüdür. (Sıralama: Alpha -> Beta -> Release Candidate -> Stable). 
+---
 
-<hr>
+### Add-on (Eklenti) 
+Bir yazılımın (genellikle tarayıcıların) çekirdek yapısını değiştirmeden ona yeni özellikler katan harici modüldür. (Plugin ile eş anlamlı kullanılır).
 
-**Analog** = Verilerin sürekli dalgalar halinde iletildiği, dijital (0 ve 1) olmayan eski teknoloji veya sinyal türüdür. 
+---
 
-<hr>
+### Address (Adres) 
+Bellekteki (RAM) bir verinin bulunduğu konumu belirten sayısal değerdir. 
 
-**Analytics (Analitik)** = Uygulama veya web sitesi trafiğini, kullanıcı davranışlarını ölçümleyip grafiklerle raporlama sürecidir (Örn: Google Analytics). 
-<hr>
+---
 
-**Anchor (Çapa)** = HTML’de `<a>` etiketiyle oluşturulan, başka bir sayfaya veya sayfa içi konuma gitmeyi sağlayan bağlantıdır (Link).
-<hr>
+### Admin / Administrator (Yönetici)
+Sistemdeki tüm yetkilere sahip olan, ayarları değiştirebilen ve diğer kullanıcıları yöneten en üst düzey kullanıcı rolüdür.
 
-**Android** = Google tarafından geliştirilen, Linux tabanlı, açık kaynaklı ve dünyanın en çok kullanılan mobil işletim sistemidir.
-<hr>
+---
 
-**Angular** = Google tarafından geliştirilen, özellikle büyük kurumsal projelerde tercih edilen, TypeScript tabanlı popüler bir Frontend (Önyüz) framework’üdür (React’ın en büyük rakiplerinden biridir). 
-<hr>
+### Adware (Reklam Yazılımı)
+Kullanıcının isteği dışında ekranında sürekli reklamlar gösteren, genellikle ücretsiz yazılımlarla bulaşan rahatsız edici yazılım türüdür.
 
-**Annotation (Ek Açıklama/Notasyon)** = Kodun içine yazılan, programın çalışmasını doğrudan etkilemeyen ancak derleyiciye veya diğer araçlara bilgi veren meta verilerdir (Örn: Java’da `@Override`).
-<hr>
+---
 
-**Anonymous Function (İsimsiz Fonksiyon)** = Bir isme sahip olmayan, genellikle başka bir fonksiyonun içine parametre olarak gönderilen veya tek seferlik kullanılan fonksiyondur.
-<hr>
+### Agile (Çevik)
+Değişime hızlı yanıt vermeyi ve parça parça ilerlemeyi hedefleyen proje yönetim metodolojisidir. 
 
-**Anti-Pattern (Karşıt Desen)** = Yazılım geliştirmede sıkça yapılan ancak aslında verimsiz, hatalı veya gelecekte sorun çıkaran “kötü çözüm” yöntemleridir. (Örn: Spagetti kod yazmak bir anti-pattern’dir). 
-<hr>
+---
 
-**Apache** = Dünyanın en köklü ve yaygın kullanılan açık kaynaklı web sunucusu yazılımlarından biridir.
-<hr>
+### AI (Artificial Intelligence — Yapay Zeka)
+İnsan zekasını taklit ederek öğrenme, problem çözme ve karar verme yeteneğine sahip bilgisayar sistemleridir.
 
-**API (Uygulama Programlama Arayüzü)** = Farklı yazılımların birbiriyle konuşmasını sağlayan arayüzdür. 
+---
 
-<hr>
+### AJAX (Asynchronous JavaScript and XML)
+Sayfanın tamamını yenilemeden, arka planda sunucuyla veri alışverişi yapıp sayfayı güncellemeyi sağlayan tekniktir. 
 
-**App Store (Uygulama Mağazası)** = Mobil veya masaüstü uygulamaların dağıtıldığı, kullanıcıların indirip satın alabildiği dijital markettir.
-<hr>
+---
 
-**Append (Sonuna Ekleme)** = Bir dosyanın, listenin veya metnin en sonuna yeni veri ekleme işlemidir. (Örn: Sohbet geçmişine yeni mesajı append edersin). 
-<hr>
+### Alert (Uyarı Kutusu)
+Özellikle JavaScript’te, kullanıcının ekranında aniden beliren ve “Tamam”a basılmadan kapanmayan basit mesaj penceresidir
 
-**Applet** = Genellikle bir tarayıcı içinde çalışan küçük Java uygulamacığıdır (Günümüzde kullanımı azalmıştır).
-<hr>
+```js
+alert("Merhaba")
+```
+---
 
-**Application Server (Uygulama Sunucusu)** = Sadece statik sayfaları (HTML) değil, karmaşık iş mantığını ve dinamik işlemleri yürüten gelişmiş sunucu türüdür. 
-<hr>
+### Algorithm (Algoritma)
+Bir sorunu çözmek için izlenen mantıksal ve sıralı adımlar bütünüdür. 
 
-**Architecture (Mimari)** = Yazılım sisteminin bileşenlerinin, bu bileşenlerin ilişkilerinin ve tasarım prensiplerinin genel yapısıdır. 
+---
 
-<hr>
+### Alias (Takma Ad)
+Bir değişkene, komuta veya veri tabanı tablosuna verilen geçici veya alternatif isimdir.
 
-**Archive (Arşiv)** = Dosyaların sıkıştırılarak veya bir araya getirilerek saklandığı dosya formatıdır (zip, tar, rar vb.).
-<hr>
+---
 
-**Argument (Argüman)** = Fonksiyonlara işlem yapması için dışarıdan gönderilen veridir. 
-<hr>
+### Allocation (Tahsis Etme)
+İşletim sisteminin, bir programın çalışması için ihtiyaç duyduğu bellek (RAM) veya disk alanını ona ayırması işlemidir. 
 
-**Arithmetic Operators (Aritmetik Operatörler)** = Matematiksel işlemler yapmayı sağlayan sembollerdir (+, -, *, /).
-<hr>
+---
 
-**Array (Dizi)** = Verileri sıralı bir liste halinde tutan veri yapısıdır. 
-<hr>
+### Alpha (Alfa Sürümü)
+Yazılımın test edilmeye başlanan ilk, çok ham ve hatalarla dolu sürümüdür. (Sıralama: Alpha -> Beta -> Release Candidate -> Stable). 
 
-**Artifact (Yapı Taşı/Eser)** = Yazılım geliştirme sürecinde üretilen her türlü çıktı (Dokümanlar, derlenmiş .exe dosyaları, kütüphaneler) için kullanılan genel terimdir. 
-<hr>
+---
 
-**ASCII** = Bilgisayarın karakterleri tanıması için kullanılan standart kodlama tablosudur. 
-<hr>
+### Analog
+Verilerin sürekli dalgalar halinde iletildiği, dijital (0 ve 1) olmayan eski teknoloji veya sinyal türüdür. 
 
-**Assembly** = Makine koduna (0 ve 1) en yakın, insanların okuyabildiği en alt seviye programlama dilidir. Donanımla doğrudan konuşur. 
-<hr>
+---
 
-**Assertion (İddia/Doğrulama)** = Kodun belirli bir noktasında bir koşulun “doğru” (true) olması gerektiğini varsayan mantıksal ifadedir; test süreçlerinde sıkça kullanılır.
-<hr>
+### Analytics (Analitik)
+Uygulama veya web sitesi trafiğini, kullanıcı davranışlarını ölçümleyip grafiklerle raporlama sürecidir (Örn: Google Analytics). 
 
-**Asset (Varlık/Kaynak)** = Yazılım projesinde kullanılan görsel, ses, video veya yazı tipi gibi kod dışı kaynak dosyalardır.
-<hr>
+---
 
-**Assignment (Atama)** = Bir değişkene değer verme işlemidir (Genellikle `=` işareti ile yapılır).
-<hr>
+### Anchor (Çapa)
+HTML’de `<a>` etiketiyle oluşturulan, başka bir sayfaya veya sayfa içi konuma gitmeyi sağlayan bağlantıdır (Link).
 
-**Asynchronous (Asenkron)** = İşlemlerin birbirini beklemeden, eş zamanlı olmayan şekilde yürütülmesidir. 
-<hr>
+---
 
-**Atomic Design (Atomik Tasarım)** = Arayüz tasarımını en küçük parçalardan (Atomlar: buton, input) başlatıp, birleştirerek daha büyük yapılara (Moleküller -> Organizmalar -> Sayfalar) gitmeyi öneren metodolojidir. 
-<hr>
+### Angular
+Google tarafından geliştirilen, özellikle büyük kurumsal projelerde tercih edilen, TypeScript tabanlı popüler bir Frontend (Önyüz) framework’üdür (React’ın en büyük rakiplerinden biridir). 
 
-**Attribute (Öznitelik)** = HTML etiketlerine veya nesnelere ek özellikler tanımlayan parametrelerdir.
-<hr>
+---
 
-**Audit Log (Denetim Kaydı)** = Sistemde kimin, ne zaman, hangi işlemi yaptığını (güvenlik amacıyla) adım adım kaydeden “kara kutu” dosyasıdır.
-<hr>
+### Annotation (Ek Açıklama/Notasyon) 
+Kodun içine yazılan, programın çalışmasını doğrudan etkilemeyen ancak derleyiciye veya diğer araçlara bilgi veren meta verilerdir (Örn: Java’da `@Override`).
 
-**Augmented Reality / AR (Artırılmış Gerçeklik)** = Gerçek dünya görüntüsünün üzerine, kamera veya gözlük aracılığıyla bilgisayar üretimi grafiklerin eklenmesi teknolojisidir (Örn: Pokemon GO). 
+---
 
-<hr>
+### Anonymous Function (İsimsiz Fonksiyon)
+Bir isme sahip olmayan, genellikle başka bir fonksiyonun içine parametre olarak gönderilen veya tek seferlik kullanılan fonksiyondur.
 
-**Authentication (Kimlik Doğrulama)** = Kullanıcının kimliğinin doğrulanması işlemidir (Login işlemi). 
-<hr>
+---
 
-**Authorization (Yetkilendirme)** = Kullanıcının hangi kaynaklara erişebileceğinin belirlenmesidir (Yetki kontrolü).
-<hr>
+### Anti-Pattern (Karşıt Desen)
+Yazılım geliştirmede sıkça yapılan ancak aslında verimsiz, hatalı veya gelecekte sorun çıkaran “kötü çözüm” yöntemleridir. (Örn: Spagetti kod yazmak bir anti-pattern’dir). 
 
-**Auto-Complete (Otomatik Tamamlama)** = Arama kutusuna bir şeyler yazarken sistemin olası kelimeleri tahmin edip önermesi özelliğidir.
-<hr>
+---
 
-**Auto-Increment (Otomatik Artış)** = Veritabanında her yeni kayıt eklendiğinde, kimlik numarasının (ID) biz müdahale etmeden otomatik olarak 1, 2, 3 diye artmasıdır.
-<hr>
+### Apache
+Dünyanın en köklü ve yaygın kullanılan açık kaynaklı web sunucusu yazılımlarından biridir.
 
-**Auto-Scaling (Otomatik Ölçeklendirme)** = Bulut bilişimde (Cloud), sunucuların yoğunluğa göre otomatik olarak çoğalması (scale out) veya azalması (scale in) işlemidir. 
-<hr>
+---
 
-**Automation (Otomasyon)** = Manuel işlemleri yazılımlar aracılığıyla otomatik hale getirme sürecidir.
-<hr>
+### API (Application Programming Interface - Uygulama Programlama Arayüzü)
+Farklı yazılımların birbiriyle konuşmasını sağlayan arayüzdür. 
 
-**Availability (Erişilebilirlik/Kullanılabilirlik)** = Bir sistemin ne kadar süreyle kesintisiz çalışır durumda olduğunu ifade eden metriktir.
-<hr>
+---
 
-**Avatar** = Kullanıcıyı temsil eden küçük profil resmi veya grafik karakterdir.
-<hr>
+### App Store (Uygulama Mağazası)
+Mobil veya masaüstü uygulamaların dağıtıldığı, kullanıcıların indirip satın alabildiği dijital markettir.
 
-**Await** = JavaScript’te `async` (asenkron) fonksiyonların içinde kullanılan, “Bu işlem bitene kadar alt satıra geçme, bekle” komutudur. 
-<hr>
+---
 
-**AWS (Amazon Web Services)** = Amazon’un sunduğu, dünyanın en popüler bulut bilişim hizmeti sağlayıcısıdır. 
+### Append (Sonuna Ekleme)
+Bir dosyanın, listenin veya metnin en sonuna yeni veri ekleme işlemidir. (Örn: Sohbet geçmişine yeni mesajı append edersin). 
 
-<hr>
+---
 
-**Azure** = Microsoft’un sunduğu, AWS ve Google Cloud’a rakip olan devasa bulut bilişim platformudur.
-<hr>
+### Applet
+Genellikle bir tarayıcı içinde çalışan küçük Java uygulamacığıdır (Günümüzde kullanımı azalmıştır).
+
+---
+
+### Application Server (Uygulama Sunucusu)
+Sadece statik sayfaları (`HTML`) değil, karmaşık iş mantığını ve dinamik işlemleri yürüten gelişmiş sunucu türüdür. 
+
+---
+
+### Architecture (Mimari)
+Yazılım sisteminin bileşenlerinin, bu bileşenlerin ilişkilerinin ve tasarım prensiplerinin genel yapısıdır. 
+
+---
+
+
+### Archive (Arşiv)
+Dosyaların sıkıştırılarak veya bir araya getirilerek saklandığı dosya formatıdır (`zip`,   `tar`, `rar` vb.).
+
+---
+
+### Argument (Argüman)
+Fonksiyonlara işlem yapması için dışarıdan gönderilen veridir. 
+
+---
+
+### Arithmetic Operators (Aritmetik Operatörler)
+Matematiksel işlemler yapmayı sağlayan operatörlerdir. (`+` , `-` ,  `*` ,  `/`).
+
+---
+
+### Array (Dizi)  
+Verileri sıralı bir liste halinde tutan veri yapısıdır. 
+
+---
+
+### Artifact (Yapı Taşı/Eser)
+Yazılım geliştirme sürecinde üretilen her türlü çıktı (Dokümanlar, derlenmiş .exe dosyaları, kütüphaneler) için kullanılan genel terimdir. 
+
+---
+
+### ASCII (American Standard Code for Information Interchange - Bilgi Değişimi İçin Amerikan Standart Kodlama Sistemi)
+
+Bilgisayarın karakterleri tanıması için kullanılan standart kodlama tablosudur. 
+
+---
+
+### Assembly
+Makine koduna (0 ve 1) en yakın, insanların okuyabildiği en alt seviye programlama dilidir. Donanımla doğrudan konuşur. 
+
+---
+
+### Assertion (İddia/Doğrulama)
+Kodun belirli bir noktasında bir koşulun “doğru” (true) olması gerektiğini varsayan mantıksal ifadedir; test süreçlerinde sıkça kullanılır.
+
+---
+
+### Asset (Varlık/Kaynak)
+Yazılım projesinde kullanılan görsel, ses, video veya yazı tipi gibi kod dışı kaynak dosyalardır.
+
+---
+
+### Assignment (Atama)
+Bir değişkene değer verme işlemidir (Genellikle `=` işareti ile yapılır).
+
+---
+
+### Asynchronous (Asenkron)
+İşlemlerin birbirini beklemeden, eş zamanlı olmayan şekilde yürütülmesidir. 
+
+---
+
+### Atomic Design (Atomik Tasarım)
+Arayüz tasarımını en küçük parçalardan (Atomlar: buton, input) başlatıp, birleştirerek daha büyük yapılara (Moleküller -> Organizmalar -> Sayfalar) gitmeyi öneren metodolojidir.
+
+---
+
+
+### Attribute (Öznitelik) 
+HTML etiketlerine veya nesnelere ek özellikler tanımlayan parametrelerdir.
+
+---
+
+### Audit Log (Denetim Kaydı)
+Sistemde kimin, ne zaman, hangi işlemi yaptığını (güvenlik amacıyla) adım adım kaydeden “kara kutu” dosyasıdır.
+
+---
+
+### Augmented Reality / AR (Artırılmış Gerçeklik)
+Gerçek dünya görüntüsünün üzerine, kamera veya gözlük aracılığıyla bilgisayar üretimi grafiklerin eklenmesi teknolojisidir (Örn: Pokemon GO). 
+
+---
+
+
+### Authentication (Kimlik Doğrulama)
+Kullanıcının kimliğinin doğrulanması işlemidir (Login işlemi). 
+
+---
+
+### Authorization (Yetkilendirme)
+Kullanıcının hangi kaynaklara erişebileceğinin belirlenmesidir (Yetki kontrolü).
+
+---
+
+### Auto-Complete (Otomatik Tamamlama)
+Arama kutusuna bir şeyler yazarken sistemin olası kelimeleri tahmin edip önermesi özelliğidir.
+
+---
+
+### Auto-Increment (Otomatik Artış)
+Veritabanında her yeni kayıt eklendiğinde, kimlik numarasının (ID - Identification) biz müdahale etmeden otomatik olarak 1, 2, 3 diye artmasıdır.
+
+---
+
+### Auto-Scaling (Otomatik Ölçeklendirme)
+Bulut bilişimde (Cloud), sunucuların yoğunluğa göre otomatik olarak çoğalması (scale out) veya azalması (scale in) işlemidir. 
+
+---
+
+### Automation (Otomasyon)
+Manuel işlemleri yazılımlar aracılığıyla otomatik hale getirme sürecidir.
+
+---
+
+### Availability (Erişilebilirlik /   Kullanılabilirlik)
+Bir sistemin ne kadar süreyle kesintisiz çalışır durumda olduğunu ifade eden metriktir.
+
+---
+
+### Avatar
+Kullanıcıyı temsil eden küçük profil resmi veya grafik karakterdir.
+
+---
+
+### Await
+JavaScript’te `async` (asenkron) fonksiyonların içinde kullanılan, “Bu işlem bitene kadar alt satıra geçme, bekle” komutudur. 
+
+---
+
+### AWS (Amazon Web Services)
+Amazon’un sunduğu, dünyanın en popüler bulut bilişim hizmeti sağlayıcısıdır. 
+
+---
+
+### Azure
+Microsoft’un sunduğu, AWS ve Google Cloud’a rakip olan devasa bulut bilişim platformudur.
+
+---
 
 ## B
 
@@ -3398,5 +3649,5 @@ Yazılım Terimleri Sözlüğü, yazılım geliştirme, bilgisayar bilimleri ve 
 
 **Zustand** = Redux'a göre çok daha basit, hafif ve kurulumu kolay olan, son zamanlarda React dünyasında popülaritesi hızla artan bir State Management (Durum Yönetimi) kütüphanesidir.
 
-## Yazan
+## Yazar
 [Buse Nur Çetin](https://github.com/busenurcetin)
