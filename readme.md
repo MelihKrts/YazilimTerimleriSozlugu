@@ -94,7 +94,7 @@
     - [Bash (Bourne Again Shell)](#bash-bourne-again-shell)
   - [Bastion Host](#bastion-host)
     - [Batch Processing (Toplu İşlem)](#batch-processing-toplu-i̇şlem)
-    - [Bearer Token\*\*](#bearer-token)
+    - [Bearer Token](#bearer-token)
     - [Benchmark (Kıyaslama/Test)](#benchmark-kıyaslamatest)
     - [Best Practice (En İyi Uygulama)](#best-practice-en-i̇yi-uygulama)
     - [Beta](#beta)
@@ -120,7 +120,7 @@
     - [Blur (Bulanıklaşma / Odak Kaybı)](#blur-bulanıklaşma--odak-kaybı)
     - [Body (Gövde)](#body-gövde)
     - [Boilerplate Code (Basmakalıp Kod)](#boilerplate-code-basmakalıp-kod)
-    - [Boolean\*](#boolean)
+    - [Boolean](#boolean)
     - [Bookmark (Yer İşareti)](#bookmark-yer-i̇şareti)
     - [Boot (Önyükleme)](#boot-önyükleme)
     - [Bootstrap](#bootstrap)
@@ -128,6 +128,22 @@
     - [Bottleneck (Darboğaz)](#bottleneck-darboğaz)
     - [Box Model (Kutu Modeli)](#box-model-kutu-modeli)
     - [Branch (Dal)](#branch-dal)
+    - [Breadcrumb (Ekmek Kırıntısı)](#breadcrumb-ekmek-kırıntısı)
+    - [Break (Kırmak / Çıkmak)](#break-kırmak--çıkmak)
+    - [Breakpoint (Kesme Noktası)](#breakpoint-kesme-noktası)
+    - [Broadcast (Yayın)](#broadcast-yayın)
+    - [Broken Link (Kırık Link)](#broken-link-kırık-link)
+    - [Browser (Tarayıcı)](#browser-tarayıcı)
+    - [Brute Force (Kaba Kuvvet)](#brute-force-kaba-kuvvet)
+    - [Bubble Sort (Kabarcık Sıralaması)](#bubble-sort-kabarcık-sıralaması)
+    - [Bubbling (Kabarcıklanma)](#bubbling-kabarcıklanma)
+    - [Buffer (Tampon Bellek)](#buffer-tampon-bellek)
+    - [Buffer Overflow (Tampon Taşması)](#buffer-overflow-tampon-taşması)
+    - [Bug (Hata/Böcek)](#bug-hataböcek)
+    - [Build (Derleme/İnşa)](#build-derlemei̇nşa)
+    - [Bundle (Paket)](#bundle-paket)
+    - [Business Logic (İş Mantığı)](#business-logic-i̇ş-mantığı)
+    - [Byte (Bayt)](#byte-bayt)
   - [C](#c)
   - [D](#d)
   - [E](#e)
@@ -183,6 +199,8 @@
 [![Z](https://img.shields.io/badge/Z-gray?style=for-the-badge)](#z)
 
 ## A
+
+---
 
 ### A/B Testing (A/B Testi)
 Kullanıcı deneyimini ölçmek için bir web sayfasının veya uygulamanın iki farklı versiyonun (A ve B) karşılaştırmalı olarak test edilmesidir.
@@ -527,6 +545,8 @@ Microsoft’un sunduğu, AWS ve Google Cloud’a rakip olan devasa bulut bilişi
 
 ## B
 
+---
+
 ### Backend (Arka Uç)
 Bir web sitesinin veya uygulamanın sunucu tarafıdır. Kullanıcının görmediği veritabanı işlemleri, sunucu ayarları ve ana mantıksal işlemler burada döner. 
 
@@ -602,7 +622,7 @@ Linux ve Unix tabanlı sistemlerde kullanılan popüler bir komut satırı aray�
 
 ---
 
-### Bearer Token** 
+### Bearer Token
 “Bu bileti taşıyan kişiye kapıyı aç” mantığıyla çalışan, API erişimlerinde Authorization başlığında gönderilen güvenlik anahtarıdır.
 
 ---
@@ -733,7 +753,7 @@ Yazılım projelerinde çok az veya hiç değişiklik yapılmadan tekrar tekrar 
 
 ---
 
-### Boolean*
+### Boolean
 Mantıksal veri tipidir. Sadece iki değer alabilir: **`True`** (Doğru/1) veya **`False`** (Yanlış/0). İngiliz Matematikçi **George Boole**'dan gelmektedir.'
 
 ---
@@ -773,55 +793,89 @@ Git gibi versiyon kontrol sistemlerinde, ana projeyi etkilemeden farklı özelli
 
 ---
 
-**Breadcrumb (Ekmek Kırıntısı)** = Web sitelerinde kullanıcının nerede olduğunu ve geriye nasıl döneceğini gösteren yatay navigasyon çubuğudur (Örn: Anasayfa > Elektronik > Telefon > iPhone). 
-<hr>
+### Breadcrumb (Ekmek Kırıntısı)
+Web sitelerinde kullanıcının nerede olduğunu ve geriye nasıl döneceğini gösteren yatay navigasyon çubuğudur (Örn: Anasayfa > Elektronik > Telefon > iPhone). 
 
-**Break (Kırmak / Çıkmak)** = Döngü (loop) veya Switch yapılarında, işlemi yarıda kesip dışarı çıkmayı sağlayan komuttur.
-<hr>
+---
 
-**Breakpoint (Kesme Noktası)** = Hata ayıklama (debug) yaparken, programın o satıra geldiğinde durmasını sağlayan işaretleyicidir.
-<hr>
+### Break (Kırmak / Çıkmak)
+Döngü (loop) veya Switch yapılarında, işlemi yarıda kesip dışarı çıkmayı sağlayan komuttur.
 
-**Broadcast (Yayın)** = Bir ağdaki verinin, ağa bağlı olan tüm cihazlara aynı anda gönderilmesidir.
-<hr>
+---
 
-**Broken Link (Kırık Link)** = Tıklandığında hedef sayfa bulunamayan (404 hatası veren) çalışmayan bağlantıdır.
-<hr>
+### Breakpoint (Kesme Noktası)
+Hata ayıklama (debug) yaparken, programın o satıra geldiğinde durmasını sağlayan işaretleyicidir.
 
-**Browser (Tarayıcı)** = Web sitelerini görüntülemeyi sağlayan yazılımdır (Chrome, Firefox, Safari vb.).
-<hr>
+---
 
-**Brute Force (Kaba Kuvvet)** = Bir şifreyi veya anahtarı bulmak için olası tüm kombinasyonları tek tek deneyerek sonuca ulaşmaya çalışan saldırı veya çözüm yöntemidir.
-<hr>
+### Broadcast (Yayın)
+Bir ağdaki verinin, ağa bağlı olan tüm cihazlara aynı anda gönderilmesidir.
 
-**Bubble Sort (Kabarcık Sıralaması)** = Eğitimlerde sıkça gösterilen, ancak performansı düşük olduğu için gerçek hayatta pek kullanılmayan basit bir sıralama algoritmasıdır. 
-<hr>
+---
 
-**Bubbling (Kabarcıklanma)** = JavaScript’te, içteki bir elemente tıklandığında (örneğin butona), bu tıklama olayının yukarıya doğru (butonu kapsayan div’e, sonra body’ye) yayılmasıdır. 
-<hr>
+### Broken Link (Kırık Link)
+Tıklandığında hedef sayfa bulunamayan (404 hatası veren) çalışmayan bağlantıdır.
 
-**Buffer (Tampon Bellek)** = Veri transferi sırasında, verilerin işlenmeden önce geçici olarak tutulduğu bellek alanıdır.
-<hr>
+---
 
-**Buffer Overflow (Tampon Taşması)** = Bir programa ayrılan bellek alanından daha fazla veri göndererek programı çökertme veya sızma girişimidir. (Bardağı taşırmak). 
-<hr>
+### Browser (Tarayıcı)
+Web sitelerini görüntülemeyi sağlayan yazılımdır (Chrome, Firefox, Safari vb.).
 
-**Bug (Hata/Böcek)** = Yazılımın beklenmedik şekilde davranmasına, yanlış sonuç üretmesine veya çökmesine neden olan kod hatasıdır.
-<hr>
+---
 
-**Build (Derleme/İnşa)** = Kaynak kodun, bilgisayarın çalıştırabileceği bir uygulamaya dönüştürülmesi işlemidir.
-<hr>
+### Brute Force (Kaba Kuvvet)
+Bir şifreyi veya anahtarı bulmak için olası tüm kombinasyonları tek tek deneyerek sonuca ulaşmaya çalışan saldırı veya çözüm yöntemidir.
 
-**Bundle (Paket)** = Webpack gibi araçların, yüzlerce JavaScript dosyasını birleştirip sıkıştırarak tarayıcıya gönderilmek üzere oluşturduğu tek bir dosyadır (Örn: `main.bundle.js`).
-<hr>
+---
 
-**Business Logic (İş Mantığı)** = Yazılımın veritabanı veya arayüzü değil; “Kredi hesaplama kuralı”, “İndirim uygulama şartı” gibi asıl iş kurallarının yazıldığı kod kısmıdır.
-<hr>
+### Bubble Sort (Kabarcık Sıralaması)
+Eğitimlerde sıkça gösterilen, ancak performansı düşük olduğu için gerçek hayatta pek kullanılmayan basit bir sıralama algoritmasıdır. 
 
-**Byte (Bayt)** = 8 bit’ten oluşan, genellikle bir karakteri temsil eden veri birimidir.
-<hr>
+---
+
+### Bubbling (Kabarcıklanma)
+JavaScript’te, içteki bir elemente tıklandığında (örneğin butona), bu tıklama olayının yukarıya doğru (butonu kapsayan div’e, sonra body’ye) yayılmasıdır. 
+
+---
+
+### Buffer (Tampon Bellek)
+Veri transferi sırasında, verilerin işlenmeden önce geçici olarak tutulduğu bellek alanıdır.
+
+---
+
+### Buffer Overflow (Tampon Taşması)
+Bir programa ayrılan bellek alanından daha fazla veri göndererek programı çökertme veya sızma girişimidir. (Bardağı taşırmak). 
+
+---
+
+### Bug (Hata/Böcek)
+Yazılımın beklenmedik şekilde davranmasına, yanlış sonuç üretmesine veya çökmesine neden olan kod hatasıdır.
+
+---
+
+### Build (Derleme/İnşa)
+Kaynak kodun, bilgisayarın çalıştırabileceği bir uygulamaya dönüştürülmesi işlemidir.
+
+---
+
+### Bundle (Paket)
+Webpack gibi araçların, yüzlerce JavaScript dosyasını birleştirip sıkıştırarak tarayıcıya gönderilmek üzere oluşturduğu tek bir dosyadır (Örn: `main.bundle.js`).
+
+---
+
+### Business Logic (İş Mantığı)
+Yazılımın veritabanı veya arayüzü değil; “Kredi hesaplama kuralı”, “İndirim uygulama şartı” gibi asıl iş kurallarının yazıldığı kod kısmıdır.
+
+---
+
+### Byte (Bayt)
+8 bit’ten oluşan, genellikle bir karakteri temsil eden veri birimidir.
+
+---
 
 ## C
+
+---
 
 **Cache (Önbellek)** = Verilere daha hızlı erişilebilmesi için, sık kullanılan verilerin geçici olarak hızlı bir depolama alanında tutulmasıdır. 
 <hr>
