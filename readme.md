@@ -32,7 +32,7 @@
     - [Adware (Reklam Yazılımı)](#adware-reklam-yazılımı)
     - [Agile (Çevik)](#agile-çevik)
     - [AI (Artificial Intelligence — Yapay Zeka)](#ai-artificial-intelligence--yapay-zeka)
-    - [AJAX (Asynchronous JavaScript and XML)](#ajax-asynchronous-javascript-and-xml)
+    - [AJAX (Asynchronous JavaScript and XML - Eşzamanlı JavaScript ve XML)](#ajax-asynchronous-javascript-and-xml---eşzamanlı-javascript-ve-xml)
     - [Alert (Uyarı Kutusu)](#alert-uyarı-kutusu)
     - [Algorithm (Algoritma)](#algorithm-algoritma)
     - [Alias (Takma Ad)](#alias-takma-ad)
@@ -79,6 +79,55 @@
     - [AWS (Amazon Web Services)](#aws-amazon-web-services)
     - [Azure](#azure)
   - [B](#b)
+    - [Backend (Arka Uç)](#backend-arka-uç)
+    - [Backdoor (Arka Kapı)](#backdoor-arka-kapı)
+    - [Background Job (Arka Plan Görevi)](#background-job-arka-plan-görevi)
+    - [Backlog (İş Listesi)](#backlog-i̇ş-listesi)
+    - [Backup (Yedekleme)](#backup-yedekleme)
+    - [Bad Request](#bad-request)
+    - [Badge (Rozet)](#badge-rozet)
+    - [Bandwidth (Bant Genişliği)](#bandwidth-bant-genişliği)
+    - [Bare Metal (Çıplak Metal)](#bare-metal-çıplak-metal)
+    - [Base Case (Temel Durum)](#base-case-temel-durum)
+    - [Base URL (Temel Adres)](#base-url-temel-adres)
+    - [Base64](#base64)
+    - [Bash (Bourne Again Shell)](#bash-bourne-again-shell)
+  - [Bastion Host](#bastion-host)
+    - [Batch Processing (Toplu İşlem)](#batch-processing-toplu-i̇şlem)
+    - [Bearer Token\*\*](#bearer-token)
+    - [Benchmark (Kıyaslama/Test)](#benchmark-kıyaslamatest)
+    - [Best Practice (En İyi Uygulama)](#best-practice-en-i̇yi-uygulama)
+    - [Beta](#beta)
+    - [Big Data (Büyük Veri)](#big-data-büyük-veri)
+    - [Big O Notation](#big-o-notation)
+    - [Binary (İkili Sistem)](#binary-i̇kili-sistem)
+    - [Binary Search (İkili Arama)](#binary-search-i̇kili-arama)
+    - [Binary Tree (İkili Ağaç)](#binary-tree-i̇kili-ağaç)
+    - [Binding (Bağlama)](#binding-bağlama)
+    - [BIOS (Basic Input/Output System) - (Temel Giriş/Çıkış Sistemi)](#bios-basic-inputoutput-system---temel-girişçıkış-sistemi)
+    - [Bit](#bit)
+    - [Bitbucket](#bitbucket)
+    - [Bitmap (BMP)](#bitmap-bmp)
+    - [Bitwise Operation (Bitesel İşlem)](#bitwise-operation-bitesel-i̇şlem)
+    - [Black Box Testing (Kara Kutu Testi)](#black-box-testing-kara-kutu-testi)
+    - [Black Hat Hacker (Siyah Şapkalı Hacker)](#black-hat-hacker-siyah-şapkalı-hacker)
+    - [BLOB (Binary Large Object — İkili Büyük Nesne)](#blob-binary-large-object--i̇kili-büyük-nesne)
+    - [Block (Blok)](#block-blok)
+    - [Block Scope (Blok Kapsamı)](#block-scope-blok-kapsamı)
+    - [Blockchain (Blokzincir)](#blockchain-blokzincir)
+    - [Blocking (Bloklayan)](#blocking-bloklayan)
+    - [Blue Screen of Death / BSOD (Mavi Ekran )](#blue-screen-of-death--bsod-mavi-ekran-)
+    - [Blur (Bulanıklaşma / Odak Kaybı)](#blur-bulanıklaşma--odak-kaybı)
+    - [Body (Gövde)](#body-gövde)
+    - [Boilerplate Code (Basmakalıp Kod)](#boilerplate-code-basmakalıp-kod)
+    - [Boolean\*](#boolean)
+    - [Bookmark (Yer İşareti)](#bookmark-yer-i̇şareti)
+    - [Boot (Önyükleme)](#boot-önyükleme)
+    - [Bootstrap](#bootstrap)
+    - [Bot](#bot)
+    - [Bottleneck (Darboğaz)](#bottleneck-darboğaz)
+    - [Box Model (Kutu Modeli)](#box-model-kutu-modeli)
+    - [Branch (Dal)](#branch-dal)
   - [C](#c)
   - [D](#d)
   - [E](#e)
@@ -239,7 +288,7 @@ Değişime hızlı yanıt vermeyi ve parça parça ilerlemeyi hedefleyen proje y
 
 ---
 
-### AJAX (Asynchronous JavaScript and XML)
+### AJAX (Asynchronous JavaScript and XML - Eşzamanlı JavaScript ve XML)
 Sayfanın tamamını yenilemeden, arka planda sunucuyla veri alışverişi yapıp sayfayı güncellemeyi sağlayan tekniktir. 
 
 ---
@@ -478,158 +527,251 @@ Microsoft’un sunduğu, AWS ve Google Cloud’a rakip olan devasa bulut bilişi
 
 ## B
 
-**Backend (Arka Uç)** = Bir web sitesinin veya uygulamanın sunucu tarafıdır. Kullanıcının görmediği veritabanı işlemleri, sunucu ayarları ve ana mantıksal işlemler burada döner. 
+### Backend (Arka Uç)
+Bir web sitesinin veya uygulamanın sunucu tarafıdır. Kullanıcının görmediği veritabanı işlemleri, sunucu ayarları ve ana mantıksal işlemler burada döner. 
 
-<hr>
+---
 
-**Backdoor (Arka Kapı)** = Bir sisteme normal güvenlik prosedürlerini (şifre vb.) atlayarak girmek için geliştirici veya saldırgan tarafından gizlice bırakılan giriş noktasıdır.
-<hr>
+### Backdoor (Arka Kapı)
+Bir sisteme normal güvenlik prosedürlerini (şifre vb.) atlayarak girmek için geliştirici veya saldırgan tarafından gizlice bırakılan giriş noktasıdır.
 
-**Background Job (Arka Plan Görevi)** = Kullanıcıyı bekletmeden, sunucunun arkada sessizce yürüttüğü uzun işlemlerdir (Örn: “Raporu hazırla ve e-posta at”).
-<hr>
+---
 
-**Backlog (İş Listesi)** = Genellikle Agile yönteminde kullanılan, proje süresince yapılması gereken özelliklerin, düzeltmelerin ve görevlerin öncelik sırasına göre tutulduğu listedir. 
+### Background Job (Arka Plan Görevi)
+Kullanıcıyı bekletmeden, sunucunun arkada sessizce yürüttüğü uzun işlemlerdir (Örn: “Raporu hazırla ve e-posta at”).
 
-<hr>
+---
 
-**Backup (Yedekleme)** = Verilerin kaybolması veya bozulması riskine karşı, verilerin bir kopyasının güvenli bir yerde saklanması işlemidir.
-<hr>
+### Backlog (İş Listesi)
+Genellikle Agile yönteminde kullanılan, proje süresince yapılması gereken özelliklerin, düzeltmelerin ve görevlerin öncelik sırasına göre tutulduğu listedir. 
 
-**Bad Request** = Sunucunun, istemciden (tarayıcıdan) gelen isteği anlayamadığını veya isteğin formatının bozuk olduğunu belirten HTTP 400 hata kodudur.
-<hr>
+---
 
-**Badge (Rozet)** = Genellikle ikonların köşesinde beliren, okunmamış mesaj sayısını veya bildirim durumunu gösteren küçük kırmızı yuvarlaktır. 
-<hr>
+### Backup (Yedekleme)
+Verilerin kaybolması veya bozulması riskine karşı, verilerin bir kopyasının güvenli bir yerde saklanması işlemidir.
 
-**Bandwidth (Bant Genişliği)** = Bir ağ bağlantısı üzerinden belirli bir sürede aktarılabilecek maksimum veri miktarıdır.
-<hr>
+---
 
-**Bare Metal (Çıplak Metal)** = Sanallaştırma katmanı veya işletim sistemi olmadan, yazılımın doğrudan donanım üzerinde çalıştığı sunucu yapısıdır. 
-<hr>
+### Bad Request
+Sunucunun, istemciden (tarayıcıdan) gelen isteği anlayamadığını veya isteğin formatının bozuk olduğunu belirten HTTP 400 hata kodudur.
 
-**Base Case (Temel Durum)** = Özyinelemeli (Recursive) fonksiyonların sonsuza kadar dönmesini engelleyen, “Artık dur” denilen bitiş koşuludur.
-<hr>
+---
 
-**Base URL (Temel Adres)** = Bir web sitesinin veya API’nin değişmeyen kök adresidir (Örn: `https://api.google.com/v1/...` adresindeki `api.google.com` kısmı).
-<hr>
+### Badge (Rozet)
+Genellikle ikonların köşesinde beliren, okunmamış mesaj sayısını veya bildirim durumunu gösteren küçük kırmızı yuvarlaktır. 
 
-**Base64** = İkili verileri (resim, dosya vb.) metin (text) formatına dönüştürerek taşımayı sağlayan bir kodlama şemasıdır.
-<hr>
+---
 
-**Bash (Bourne Again Shell)** = Linux ve Unix tabanlı sistemlerde kullanılan popüler bir komut satırı arayüzü ve kabuk programıdır. 
-<hr>
+### Bandwidth (Bant Genişliği)
+Bir ağ bağlantısı üzerinden belirli bir sürede aktarılabilecek maksimum veri miktarıdır.
 
-**Bastion Host** = Özel ve dışarıya kapalı bir ağa (Private Network) güvenli bir şekilde bağlanmak için “sıçrama tahtası” olarak kullanılan, güvenliği artırılmış sunucudur. 
-<hr>
+---
 
-**Batch Processing (Toplu İşlem)** = İnsan müdahalesi olmadan, verilerin veya görevlerin biriktirilip toplu halde arka arkaya işlenmesidir.
-<hr>
+### Bare Metal (Çıplak Metal)
+Sanallaştırma katmanı veya işletim sistemi olmadan, yazılımın doğrudan donanım üzerinde çalıştığı sunucu yapısıdır. 
 
-**Bearer Token** = “Bu bileti taşıyan kişiye kapıyı aç” mantığıyla çalışan, API erişimlerinde Authorization başlığında gönderilen güvenlik anahtarıdır.
-<hr>
+---
 
-**Benchmark (Kıyaslama/Test)** = Bir donanımın veya yazılımın performansını (hızını, gücünü) standart testlerle ölçme ve diğerleriyle karşılaştırma işlemidir.
-<hr>
+### Base Case (Temel Durum)
+Özyinelemeli (Recursive) fonksiyonların sonsuza kadar dönmesini engelleyen, “Artık dur” denilen bitiş koşuludur.
 
-**Best Practice (En İyi Uygulama)** = Yazılım dünyasında tecrübelerle sabitlenmiş, bir işi yapmanın en doğru, en güvenli ve en verimli kabul edilen yöntemidir.
-<hr>
+---
 
-**Beta** = Yazılımın geliştirme aşamasındaki, henüz final sürümü yayınlanmamış ancak test edilmesi için kısıtlı bir kitleye sunulan sürümüdür.
-<hr>
+### Base URL (Temel Adres)
+Bir web sitesinin veya API’nin değişmeyen kök adresidir (Örn: **`https://api.google.com/v1/...`**  adresindeki **`api.google.com`** kısmı).
 
-**Big Data (Büyük Veri)** = Geleneksel yöntemlerle işlenmesi zor olan, çok büyük hacimli, hızlı ve çeşitli veri kümeleridir. 
-<hr>
+---
 
-**Big O Notation** = Bir algoritmanın verimliliğini ve performansını (hızını veya bellek kullanımını) girdi boyutuna göre analiz etmek için kullanılan matematiksel gösterimdir. 
-<hr>
+### Base64
+İkili verileri (resim, dosya vb.) metin (text) formatına dönüştürerek taşımayı sağlayan bir kodlama şemasıdır.
 
-**Binary (İkili Sistem)** = Bilgisayarların temel dili olan, sadece 0 ve 1 rakamlarından oluşan sayı sistemidir.
-<hr>
+---
 
-**Binary Search (İkili Arama)** = Sıralı bir listede, aranan değeri bulmak için listeyi sürekli ikiye bölerek ilerleyen çok hızlı bir arama algoritmasıdır. 
-<hr>
+### Bash (Bourne Again Shell)
+Linux ve Unix tabanlı sistemlerde kullanılan popüler bir komut satırı arayüzü ve kabuk programıdır. 
 
-**Binary Tree (İkili Ağaç)** = Her düğümün (node) en fazla iki alt dala (sağ ve sol) sahip olduğu hiyerarşik veri yapısıdır. 
+---
 
-<hr>
+## Bastion Host
+Özel ve dışarıya kapalı bir ağa (Private Network) güvenli bir şekilde bağlanmak için “sıçrama tahtası” olarak kullanılan, güvenliği artırılmış sunucudur. 
 
-**Binding (Bağlama)** = Bir fonksiyonun veya değişkenin, belirli bir nesneye veya kapsama (context) bağlanması işlemidir (JavaScript’teki `this` anahtar kelimesiyle ilgilidir).
-<hr>
+---
 
-**Bios (Basic Input/Output System)** = Bilgisayar açıldığında donanımları test edip işletim sistemini başlatan, anakart üzerindeki küçük yazılımdır.
-<hr>
+### Batch Processing (Toplu İşlem)
+İnsan müdahalesi olmadan, verilerin veya görevlerin biriktirilip toplu halde arka arkaya işlenmesidir.
 
-**Bit** = Bilgisayardaki en küçük veri birimidir (0 veya 1).
-<hr>
+---
 
-**Bitbucket** = GitHub ve GitLab’a rakip olan, Atlassian firmasına ait popüler Git tabanlı kod barındırma servisidir.
-<hr>
+### Bearer Token** 
+“Bu bileti taşıyan kişiye kapıyı aç” mantığıyla çalışan, API erişimlerinde Authorization başlığında gönderilen güvenlik anahtarıdır.
 
-**Bitmap (BMP)** = Görüntünün her bir pikselinin renk bilgisini tutarak oluşturulan resim formatıdır.
-<hr>
+---
 
-**Bitwise Operation (Bitesel İşlem)** = Verileri bayt veya sayı olarak değil, doğrudan 0 ve 1'ler seviyesinde (bit bit) işleyen düşük seviyeli matematiksel işlemlerdir.
-<hr>
+### Benchmark (Kıyaslama/Test)
+Bir donanımın veya yazılımın performansını (hızını, gücünü) standart testlerle ölçme ve diğerleriyle karşılaştırma işlemidir.
 
-**Black Box Testing (Kara Kutu Testi)** = Testi yapan kişinin kodun iç yapısını bilmeden, sadece “Girdi” verip çıkan “Sonucu” kontrol ettiği test yöntemidir. 
+---
+
+### Best Practice (En İyi Uygulama)
+Yazılım dünyasında tecrübelerle sabitlenmiş, bir işi yapmanın en doğru, en güvenli ve en verimli kabul edilen yöntemidir.
+
+---
+
+### Beta
+Yazılımın geliştirme aşamasındaki, henüz final sürümü yayınlanmamış ancak test edilmesi için kısıtlı bir kitleye sunulan sürümüdür.
+
+---
+
+### Big Data (Büyük Veri)
+Geleneksel yöntemlerle işlenmesi zor olan, çok büyük hacimli, hızlı ve çeşitli veri kümeleridir. 
+
+---
+
+### Big O Notation
+Bir algoritmanın verimliliğini ve performansını (hızını veya bellek kullanımını) girdi boyutuna göre analiz etmek için kullanılan matematiksel gösterimdir. 
+
+---
+
+### Binary (İkili Sistem)
+Bilgisayarların temel dili olan, sadece 0 ve 1 rakamlarından oluşan sayı sistemidir.
+
+---
+
+### Binary Search (İkili Arama)
+Sıralı bir listede, aranan değeri bulmak için listeyi sürekli ikiye bölerek ilerleyen çok hızlı bir arama algoritmasıdır. 
+
+---
+
+### Binary Tree (İkili Ağaç)
+Her düğümün (node) en fazla iki alt dala (sağ ve sol) sahip olduğu hiyerarşik veri yapısıdır. 
+
+---
+
+### Binding (Bağlama)
+Bir fonksiyonun veya değişkenin, belirli bir nesneye veya kapsama (context) bağlanması işlemidir (Genellikle programlama dillerindeki **`this`** anahtar kelimesiyle ilgilidir).
+
+---
+
+### BIOS (Basic Input/Output System) - (Temel Giriş/Çıkış Sistemi)
+Bilgisayar açıldığında donanımları test edip işletim sistemini başlatan, anakart üzerindeki küçük yazılımdır.
+
+---
+
+### Bit
+Bilgisayardaki en küçük veri birimidir (0 veya 1).
+
+---
+
+### Bitbucket
+GitHub ve GitLab’a rakip olan, Atlassian firmasına ait popüler **`Git`** tabanlı kod barındırma servisidir.
+
+---
+
+### Bitmap (BMP)
+Görüntünün her bir pikselinin renk bilgisini tutarak oluşturulan resim formatıdır.
+
+---
+
+### Bitwise Operation (Bitesel İşlem)
+Verileri bayt veya sayı olarak değil, doğrudan 0 ve 1'ler seviyesinde (bit bit) işleyen düşük seviyeli matematiksel işlemlerdir.
+
+---
+
+### Black Box Testing (Kara Kutu Testi)
+Testi yapan kişinin kodun iç yapısını bilmeden, sadece “Girdi” verip çıkan “Sonucu” kontrol ettiği test yöntemidir. 
+
+---
 
 
-<hr>
+### Black Hat Hacker (Siyah Şapkalı Hacker)
+Yeteneklerini sistemlere zarar vermek, veri çalmak veya şantaj yapmak için kullanan kötü niyetli siber korsandır.
 
-**Black Hat Hacker (Siyah Şapkalı Hacker)** = Yeteneklerini sistemlere zarar vermek, veri çalmak veya şantaj yapmak için kullanan kötü niyetli siber korsandır.
-<hr>
+---
 
-**Blob (Binary Large Object — İkili Büyük Nesne)** = Veritabanında veya bellekte saklanan, genellikle resim, ses veya video gibi büyük boyutlu ham veri yığınıdır.
-<hr>
+### BLOB (Binary Large Object — İkili Büyük Nesne)
+Veritabanında veya bellekte saklanan, genellikle resim, ses veya video gibi büyük boyutlu ham veri yığınıdır.
 
-**Block (Blok)** = Genellikle süslü parantezler `{ }` arasına yazılan ve tek bir birim olarak kabul edilen kod grubudur.
-<hr>
+---
 
-**Block Scope (Blok Kapsamı)** = Bir değişkenin sadece tanımlandığı süslü parantezler `{ }` arasında geçerli olması durumudur (JavaScript’te `let` ve `const` blok kapsamlıdır). 
-<hr>
+### Block (Blok)
+Genellikle süslü parantezler **`{ }`** arasına yazılan ve tek bir birim olarak kabul edilen kod grubudur.
 
-**Blockchain (Blokzincir)** = Verilerin şifrelenmiş bloklar halinde zincirleme şekilde saklandığı, merkeziyetsiz ve değiştirilemez kayıt defteri teknolojisidir. 
+---
 
-<hr>
+### Block Scope (Blok Kapsamı)
+Bir değişkenin sadece tanımlandığı süslü parantezler **`{ }`** arasında geçerli olması durumudur (JavaScript’te **`let`** ve **`const`** blok kapsamlıdır). 
 
-**Blocking (Bloklayan)** = Bir işlem bitmeden diğerinin başlamasına izin vermeyen, sistemi kilitleyen kod yapısıdır (Senkron çalışma).
-<hr>
+---
 
-**Blue Screen of Death / BSOD (Mavi Ekran)** = Windows işletim sisteminde kritik bir hata oluştuğunda sistemin kendini korumaya alıp kapandığı o meşhur mavi hata ekranıdır. 
-<hr>
+### Blockchain (Blokzincir)
+Verilerin şifrelenmiş bloklar halinde zincirleme şekilde saklandığı, merkeziyetsiz ve değiştirilemez kayıt defteri teknolojisidir. 
 
-**Blur (Bulanıklaşma / Odak Kaybı)** = Görsel tasarımda görüntünün netliğini kaybetmesi; Arayüzde ise imlecin bir input kutusundan çıkması (focus out) olayıdır.
-<hr>
+---
 
-**Body (Gövde)** = HTML sayfasının, kullanıcının gördüğü tüm içeriği kapsayan ana etiketi `<body>`; HTTP isteğinde ise gönderilen verinin (örneğin form bilgilerinin) taşındığı kısımdır.
-<hr>
+### Blocking (Bloklayan)
+Bir işlem bitmeden diğerinin başlamasına izin vermeyen, sistemi kilitleyen kod yapısıdır (Senkron çalışma).
 
-**Boilerplate Code (Basmakalıp Kod)** = Yazılım projelerinde çok az veya hiç değişiklik yapılmadan tekrar tekrar kullanılan standart kod parçalarıdır.
-<hr>
+---
 
-**Boolean** = Mantıksal veri tipidir. Sadece iki değer alabilir: True (Doğru/1) veya False (Yanlış/0).
-<hr>
+### Blue Screen of Death / BSOD (Mavi Ekran )
+Windows işletim sisteminde kritik bir hata oluştuğunda sistemin kendini korumaya alıp kapandığı o meşhur mavi hata ekranıdır. *Microsoft mavi hata ekranını siyah bir arka plan ile değiştirmeyi planlamaktadır.*
 
-**Bookmark (Yer İşareti)** = Tarayıcıda bir web sitesinin adresini daha sonra kolayca bulmak için kaydetme işlemidir.
-<hr>
+---
 
-**Boot (Önyükleme)** = Bilgisayarın veya bir işletim sisteminin başlatılma sürecidir.
-<hr>
+### Blur (Bulanıklaşma / Odak Kaybı) 
+Görsel tasarımda görüntünün netliğini kaybetmesi; Arayüzde ise imlecin bir input kutusundan çıkması (focus out) olayıdır.
 
-**Bootstrap** = Web sitelerini hızlı ve duyarlı (mobil uyumlu) tasarlamak için kullanılan dünyanın en popüler CSS kütüphanesidir.
-<hr>
+---
 
-**Bot** = Belirli görevleri otomatik olarak yerine getiren yazılım veya scripttir (Örn: Arama motoru botları, Chatbotlar).
-<hr>
+### Body (Gövde)
+**`HTML`** sayfasının, kullanıcının gördüğü tüm içeriği kapsayan ana etiketi `<body>`; HTTP isteğinde ise gönderilen verinin (örneğin form bilgilerinin) taşındığı kısımdır.
 
-**Bottleneck (Darboğaz)** = Bir sistemin genel performansını düşüren, akışı yavaşlatan en zayıf halkasıdır (Örn: Çok hızlı işlemcin var ama internetin yavaşsa, internet bir darboğazdır). 
-<hr>
+---
 
-**Box Model (Kutu Modeli)** = CSS’in en temelidir. Her HTML elementinin bir kutu olduğunu ve bu kutunun Margin (Dış boşluk), Border (Kenarlık), Padding (İç boşluk) ve Content (İçerik) katmanlarından oluştuğunu belirtir. 
-<hr>
+### Boilerplate Code (Basmakalıp Kod)
+Yazılım projelerinde çok az veya hiç değişiklik yapılmadan tekrar tekrar kullanılan standart kod parçalarıdır.
 
-**Branch (Dal)** = Git gibi versiyon kontrol sistemlerinde, ana projeyi etkilemeden farklı özellikler geliştirmek için açılan bağımsız çalışma alanıdır. 
-<hr>
+---
+
+### Boolean*
+Mantıksal veri tipidir. Sadece iki değer alabilir: **`True`** (Doğru/1) veya **`False`** (Yanlış/0). İngiliz Matematikçi **George Boole**'dan gelmektedir.'
+
+---
+
+### Bookmark (Yer İşareti)
+Tarayıcıda bir web sitesinin adresini daha sonra kolayca bulmak için kaydetme işlemidir.
+
+---
+
+### Boot (Önyükleme)
+Bilgisayarın veya bir işletim sisteminin başlatılma sürecidir.
+
+---
+
+### Bootstrap
+2010 yılında Twitter (yeni adı X) **Mark Otto** ve **Jacob Thornton** tarafından geliştirilmiştir. Web sitelerini hızlı ve duyarlı (mobil uyumlu) tasarlamak için kullanılan dünyanın en popüler CSS kütüphanesidir.
+
+---
+
+### Bot 
+Belirli görevleri otomatik olarak yerine getiren yazılım veya scripttir (Örn: Arama motoru botları, Chatbotlar).
+
+---
+
+### Bottleneck (Darboğaz)
+Bir sistemin genel performansını düşüren, akışı yavaşlatan en zayıf halkasıdır (Örn: Çok hızlı işlemcin var ama internetin yavaşsa, internet bir darboğazdır). 
+
+---
+
+### Box Model (Kutu Modeli)
+CSS’in en temelidir. Her HTML elementinin bir kutu olduğunu ve bu kutunun margin (Dış boşluk), border (kenarlık), padding (iç boşluk) ve content (içerik) katmanlarından oluştuğunu belirtir. 
+
+---
+
+### Branch (Dal)
+Git gibi versiyon kontrol sistemlerinde, ana projeyi etkilemeden farklı özellikler geliştirmek için açılan bağımsız çalışma alanıdır. 
+
+---
 
 **Breadcrumb (Ekmek Kırıntısı)** = Web sitelerinde kullanıcının nerede olduğunu ve geriye nasıl döneceğini gösteren yatay navigasyon çubuğudur (Örn: Anasayfa > Elektronik > Telefon > iPhone). 
 <hr>
